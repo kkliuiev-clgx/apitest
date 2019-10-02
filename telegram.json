@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.telegram.org/bot641660690:AAFVTgJ067R8QO48DFj7CAo2-VZFPOfKev0/sendMessage?chat_id=@apitest111&text=Шеф, все пропало!",
+					"raw": "https://api.telegram.org/bot984471803:AAG_CMe2dGx1gH5GJeX9TY74sKpxS9rIc5Q/sendMessage?chat_id=-1001226830013&text=Everything is ok!",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -19,17 +19,17 @@
 						"org"
 					],
 					"path": [
-						"bot641660690:AAFVTgJ067R8QO48DFj7CAo2-VZFPOfKev0",
+						"bot984471803:AAG_CMe2dGx1gH5GJeX9TY74sKpxS9rIc5Q",
 						"sendMessage"
 					],
 					"query": [
 						{
 							"key": "chat_id",
-							"value": "@apitest111"
+							"value": "-1001226830013"
 						},
 						{
 							"key": "text",
-							"value": "Шеф, все пропало!"
+							"value": "Everything is ok!"
 						}
 					]
 				}
