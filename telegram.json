@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "c7cff6d7-6ef9-48e6-b925-bde6152a21f7",
+		"name": "Telegram Bot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Server down Telegram alarm",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.telegram.org/bot641660690:AAFVTgJ067R8QO48DFj7CAo2-VZFPOfKev0/sendMessage?chat_id=@apitest111&text=Шеф, все пропало!",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot641660690:AAFVTgJ067R8QO48DFj7CAo2-VZFPOfKev0",
+						"sendMessage"
+					],
+					"query": [
+						{
+							"key": "chat_id",
+							"value": "@apitest111"
+						},
+						{
+							"key": "text",
+							"value": "Шеф, все пропало!"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
